@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXProject section */
+		1D6058900D05DD3D006BFB54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 1D60589E0D05DD3E006BFB54;
+			compatibilityVersion = "Xcode 15.0";
+			mainGroup = 1D60588F0D05DD3D006BFB54;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058910D05DD3D006BFB54,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXNativeTarget section */
+		1D6058910D05DD3D006BFB54 /* WebViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D60589F0D05DD3E006BFB54;
+			buildPhases = ();
+			name = WebViewApp;
+			productName = WebViewApp;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin XCBuildConfiguration section */
+		1D60589D0D05DD3E006BFB54 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.webviewapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Release;
+		};
+		1D60589C0D05DD3E006BFB54 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.webviewapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D60589E0D05DD3E006BFB54 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D60589C0D05DD3E006BFB54,
+				1D60589D0D05DD3E006BFB54,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D60589F0D05DD3E006BFB54 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D60589C0D05DD3E006BFB54,
+				1D60589D0D05DD3E006BFB54,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 1D6058900D05DD3D006BFB54;
+}
